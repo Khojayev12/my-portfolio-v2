@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --background: white;
+  --h2: #666;
+  --h1: #42446e;
+  --h3: #000;
+  --title: #42446e;
+  --bg2: #fff;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--background);
+}
+.header {
+  width: 86%;
+  padding: 10px 7%;
+  background-color: var(--background);
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+}
+.head-logo {
+  cursor: pointer;
+  background: linear-gradient(90deg, #13b0f5 2.6%, #e70faa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px; /* 120.69% */
+  letter-spacing: -1px;
+  margin-top: 20px;
+}
+.head-menus {
+  display: inline-flex;
+  justify-content: space-around;
+}
+.head-menu {
+  color: var(--h2);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-right: 50px;
+  margin-top: 35px;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.head-menu:hover {
+  cursor: pointer;
+  color: #e70faa;
+}
+#theme-change {
+  visibility: collapse;
+}
+.head-change-theme {
+  margin-top: 35px;
+}
+.theme-icon {
+  font-size: 25px;
+  color: var(--h2);
+  cursor: pointer;
+}
+
+/* HOME PAGE || HOME PAGE  */
+.home-page {
+  width: 100%;
+}
+.hero-section {
+  height: 400px;
+  margin-top: calc(50vh - 290px);
+  margin-bottom: calc(50vh - 200px);
+  width: 86%;
+  margin-left: 7%;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-text {
+  width: 60%;
+  text-align: left;
+  color: var(--title);
+  font-family: Poppins;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+}
+.hero-name {
+  background: var(
+    --gradient-heading,
+    linear-gradient(90deg, #13b0f5 2.6%, #e70faa 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+}
+.hero-img {
+  width: 40%;
+  display: inline-flex;
+  justify-content: right;
+  text-align: center;
+}
+.hero-cyrcle-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 175px;
+  background: linear-gradient(90deg, #13b0f5 2.6%, #e70faa 100%);
+}
+.hero-image {
+  margin-top: 10px;
+  width: 330px;
+  height: 330px;
+  border-radius: 170px;
+  object-fit: cover;
+  object-position: center;
+}
+.tech-section {
+  width: 86%;
+  margin-left: 7%;
+}
+.tech-title {
+  color: var(--h1);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  margin-top: 40px;
+}
+.tech-subtitle {
+  margin-top: 45px;
+  color: var(--h2);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 81.25% */
+}
+.tech-icons-group {
+  margin-top: 60px;
+  width: 100%;
+}
+.tech-icon-container {
+  margin: 40px;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+}
+.tech-icon {
+  width: 120px;
+  height: 120px;
+  object-position: center;
+  object-fit: cover;
+}
+.projects-section {
+  width: 86%;
+  margin-left: 7%;
+  margin-top: 100px;
+}
+.projects-subtitle {
+  margin-bottom: 30px;
+}
+.project-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* PROJECT BLOCK STYLE */
+.project {
+  display: inline-block;
+  margin: 20px 0px;
+  background-color: var(--bg2);
+  width: 373px;
+  height: 527px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+}
+.project-img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 260px;
+}
+.projects-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.projects-text {
+  width: calc(100% - 56px);
+  margin-left: 28px;
+  margin-top: 25px;
+}
+.pro-title {
+  color: var(--h3);
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 92.857% */
+}
+.pro-description {
+  margin-top: 17px;
+  color: var(--h2);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px; /* 144.444% */
+}
+.pro-footer {
+  margin-top: 20px;
+  width: 100%;
+}
+.pro-half-footer {
+  width: 50%;
+  display: inline-block;
+  color: var(--h3);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  text-decoration-line: underline;
+}
+.pro-icon {
+  margin-right: 10px;
+}
+.my-link {
+  color: unset;
+  text-decoration: unset;
+}
+.head-foot {
+  margin-top: 50px;
+  width: 86%;
+  margin-left: 0px !important;
+  display: flex;
+  justify-content: space-between;
+}
+.foot-icon {
+  margin-top: 32px;
+  margin-right: 10px;
+}
+.under-foot {
+  border-top: solid 2px rgb(209, 209, 209);
+  display: flex;
+  justify-content: center;
+  width: 86%;
+  margin-left: 7%;
+  margin-bottom: 50px;
+}
+.dark-logo {
+  cursor: pointer;
+  color: var(--h2);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px; /* 120.69% */
+  letter-spacing: -1px;
+  margin-top: 20px;
+}
+.projects-page {
+  width: 86%;
+  margin-left: 7%;
+}
+.projects-page-title {
+  text-align: left;
+  color: var(--h1);
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 61.905% */
+  margin-top: 100px;
+}
+.projecfts-page-subtitle {
+  text-align: left;
+  margin-top: 30px;
+  color: var(--h2);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 100px;
+  line-height: 26px; /* 130% */
+}
