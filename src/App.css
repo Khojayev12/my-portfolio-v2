@@ -304,18 +304,76 @@ body {
   line-height: 26px; /* 130% */
 }
 
-.about-page{
+.about-page {
   width: 86%;
   margin-left: 7%;
+  margin-bottom: 50px;
 }
-.about-main-text{
+.about-main-text {
   width: 60%;
   display: inline-block;
   background-color: #13b0f5;
 }
-.about-main-photo{
+.about-main-photo {
   width: 38%;
   display: inline-block;
   background-color: red;
   text-align: center;
+}
+.about-job {
+  margin-top: 30px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: var(--h2) solid 1px;
+}
+.about-job-left {
+  width: 60%;
+  display: inline-block;
+}
+.about-job-right {
+  width: 40%;
+  display: inline-block;
+}
+.about-job-status {
+  color: var(--h2);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  letter-spacing: 1px;
+}
+.about-job-loc {
+  margin-top: 3px;
+  color: var(--h2);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+.about-job-time {
+  border-radius: 100px;
+  background: #d7ffe0;
+  color: #018c0f;
+  width: 84px;
+  height: 24px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 288.889% */
+}
+.about-job-date {
+  color: var(--h2);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 233.333% */
+  letter-spacing: 1px;
 }

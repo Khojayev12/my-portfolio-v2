@@ -22,7 +22,7 @@ export default function Home() {
         <div className="hero-text">
           Hi <span role="img">👋</span>, <br />
           My name is <br />
-          <span className="hero-name"> Khujayev Yuldoshbek </span> <br />I am
+          <span className="hero-name"> Xo'jayev Yo'ldoshbek </span> <br />I am
           Frontend Dev
         </div>
         <div className="hero-img">
