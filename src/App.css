@@ -303,3 +303,19 @@ body {
   margin-bottom: 100px;
   line-height: 26px; /* 130% */
 }
+
+.about-page{
+  width: 86%;
+  margin-left: 7%;
+}
+.about-main-text{
+  width: 60%;
+  display: inline-block;
+  background-color: #13b0f5;
+}
+.about-main-photo{
+  width: 38%;
+  display: inline-block;
+  background-color: red;
+  text-align: center;
+}
