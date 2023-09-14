@@ -377,3 +377,11 @@ body {
   line-height: 28px; /* 233.333% */
   letter-spacing: 1px;
 }
+.margin-b-zero{
+  margin-bottom: 0px !important;
+}
+.contact-icons{
+  font-size: 25px;
+  margin-bottom: -5px;
+  margin-right: 10px;
+}

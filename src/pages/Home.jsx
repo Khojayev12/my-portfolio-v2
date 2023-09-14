@@ -11,10 +11,8 @@ import Image8 from "../images/tailwind.svg";
 import Image9 from "../images/vscode.svg";
 import Project from "../components/Project";
 import Pro1 from "../projects/pro1.png";
+import Footer from "../components/Footer";
 
-import { FaTelegram } from "react-icons/fa";
-import { BsGithub } from "react-icons/bs";
-import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div className="home-page">
@@ -116,22 +114,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="home-footer">
-        <div className="header head-foot">
-          <div className=" dark-logo">Khoja</div>
-          <div className="head-menus">
-            <div className="head-menu">+998 99 968 15 57</div>
-            <div className="head-menu">khojayev12@gmail.com</div>
-            <Link to="#">
-              <BsGithub className="theme-icon foot-icon" />
-            </Link>
-            <Link to="#">
-              <FaTelegram className="theme-icon foot-icon" />
-            </Link>
-          </div>
-        </div>
-        <div className="under-foot"></div>
-      </div>
+      <Footer />
     </div>
   );
 }
