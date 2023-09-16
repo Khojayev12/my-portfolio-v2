@@ -7,8 +7,8 @@ export default function Projects() {
   return (
     <>
       <div className="projects-page">
-        <div className="projects-page-title">Projects</div>
-        <div className="projecfts-page-subtitle">
+        <div className="projects-page-title"  data-aos="fade-right">Projects</div>
+        <div className="projecfts-page-subtitle"  data-aos="fade-right">
           Websites I've built so far
         </div>
 

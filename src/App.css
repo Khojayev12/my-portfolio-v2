@@ -377,11 +377,27 @@ body {
   line-height: 28px; /* 233.333% */
   letter-spacing: 1px;
 }
-.margin-b-zero{
+.margin-b-zero {
   margin-bottom: 0px !important;
 }
-.contact-icons{
+.contact-icons {
   font-size: 25px;
   margin-bottom: -5px;
   margin-right: 10px;
+}
+.social-labels {
+  text-align: left;
+  margin-top: 30px;
+  color: var(--h2);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 100px;
+  line-height: 26px;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.social-labels:hover{
+  color: #13b0f5;
+  cursor: pointer;
 }

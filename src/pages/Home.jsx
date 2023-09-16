@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className="home-page">
       <div className="hero-section">
-        <div className="hero-text">
+        <div className="hero-text" data-aos="fade-right">
           Hi <span role="img">👋</span>, <br />
           My name is <br />
           <span className="hero-name"> Xo'jayev Yo'ldoshbek </span> <br />I am
@@ -29,37 +29,37 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="tech-section">
+      <div className="tech-section" >
         <div className="tech-title">My Tech Stack</div>
         <div className="tech-subtitle">
           Technologies I've been working with recently
         </div>
         <div className="tech-icons-group">
-          <div className="tech-icon-container">
+          <div className="tech-icon-container" data-aos="zoom-in">
             <img src={Image1} alt="" className="tech-icon" />
           </div>
-          <div className="tech-icon-container">
+          <div className="tech-icon-container" data-aos="zoom-in">
             <img src={Image2} alt="" className="tech-icon" />
           </div>
-          <div className="tech-icon-container">
+          <div className="tech-icon-container" data-aos="zoom-in">
             <img src={Image3} alt="" className="tech-icon" />
           </div>
-          <div className="tech-icon-container">
+          <div className="tech-icon-container" data-aos="zoom-in">
             <img src={Image4} alt="" className="tech-icon" />
           </div>
-          <div className="tech-icon-container">
+          <div className="tech-icon-container" data-aos="zoom-in">
             <img src={Image5} alt="" className="tech-icon" />
           </div>
-          <div className="tech-icon-container">
+          <div className="tech-icon-container" data-aos="zoom-in">
             <img src={Image6} alt="" className="tech-icon" />
           </div>
-          <div className="tech-icon-container">
+          <div className="tech-icon-container" data-aos="zoom-in">
             <img src={Image7} alt="" className="tech-icon" />
           </div>
-          <div className="tech-icon-container">
+          <div className="tech-icon-container" data-aos="zoom-in">
             <img src={Image8} alt="" className="tech-icon" />
           </div>
-          <div className="tech-icon-container">
+          <div className="tech-icon-container" data-aos="zoom-in">
             <img src={Image9} alt="" className="tech-icon" />
           </div>
         </div>

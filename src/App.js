@@ -12,7 +12,9 @@ import {
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
+import Aos from "aos";
 function App() {
+  Aos.init();
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<Root />}>

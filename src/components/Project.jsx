@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Project(props) {
   return (
-    <div className="project">
+    <div className="project" data-aos="fade-up">
       <div className="project-img">
         <img src={props.img} alt="" className="projects-image" />
       </div>

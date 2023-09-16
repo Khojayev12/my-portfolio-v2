@@ -10,7 +10,7 @@ export default function About() {
           className="hero-section"
           style={{ marginLeft: "0px", width: "100%" }}
         >
-          <div className="hero-text">
+          <div className="hero-text"  data-aos="fade-right">
             <div className="projects-page-title" style={{ marginTop: "0px" }}>
               About me
             </div>
@@ -36,15 +36,15 @@ export default function About() {
               <br />
             </div>
           </div>
-          <div className="hero-img">
+          <div className="hero-img" style={{position:"fixed", right:"7%"}}>
             <div className="hero-cyrcle-img">
               <img src={MyImg} alt="" className="hero-image" />
             </div>
           </div>
         </div>
 
-        <div className="projects-page-title">Work Experience</div>
-        <div className="about-job">
+        <div className="projects-page-title" data-aos="fade-up">Work Experience</div>
+        <div className="about-job" data-aos="fade-up">
           <span>
             <div className="about-job-status">Junior Web Developer</div>
             <div className="about-job-loc">Freelance, Tashkent</div>
@@ -54,7 +54,7 @@ export default function About() {
             <div className="about-job-date">Sep 2022 - June 2023</div>
           </span>
         </div>
-        <div className="about-job">
+        <div className="about-job" data-aos="fade-up">
           <span>
             <div className="about-job-status">Junior Web Developer</div>
             <div className="about-job-loc">Freelance, Tashkent</div>
@@ -64,7 +64,7 @@ export default function About() {
             <div className="about-job-date">Sep 2022 - June 2023</div>
           </span>
         </div>
-        <div className="about-job">
+        <div className="about-job" data-aos="fade-up">
           <span>
             <div className="about-job-status">Junior Web Developer</div>
             <div className="about-job-loc">Freelance, Tashkent</div>
@@ -75,26 +75,26 @@ export default function About() {
           </span>
         </div>
 
-        <div className="projects-page-title">Education</div>
-        <div className="about-job">
+        <div className="projects-page-title" data-aos="fade-up">Education</div>
+        <div className="about-job" data-aos="fade-up">
           <div className="about-job-status">Presidential School in Khiva</div>
           <div className="about-job-date">Sep 2022 - June 2023</div>
         </div>
-        <div className="about-job">
+        <div className="about-job" data-aos="fade-up">
           <div className="about-job-status">University of Coventry</div>
           <div className="about-job-date">Sep 2023</div>
         </div>
 
-        <div className="projects-page-title">Languages</div>
-        <div className="about-job">
+        <div className="projects-page-title" data-aos="fade-up">Languages</div>
+        <div className="about-job" data-aos="fade-up">
           <div className="about-job-status">Uzbek</div>
           <div className="about-job-date">National language</div>
         </div>
-        <div className="about-job">
+        <div className="about-job" data-aos="fade-up">
           <div className="about-job-status">English</div>
           <div className="about-job-date">C1</div>
         </div>
-        <div className="about-job">
+        <div className="about-job" data-aos="fade-up">
           <div className="about-job-status">Russian</div>
           <div className="about-job-date">C1</div>
         </div>
