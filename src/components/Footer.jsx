@@ -11,10 +11,10 @@ export default function Footer() {
         <div className="head-menus">
           <div className="head-menu">+998 99 968 15 57</div>
           <div className="head-menu">khojayev12@gmail.com</div>
-          <Link to="#">
+          <Link to="https://github.com/Khojayev12">
             <BsGithub className="theme-icon foot-icon" />
           </Link>
-          <Link to="#">
+          <Link to="https://t.me/Xojayev_Yoldoshbek">
             <FaTelegram className="theme-icon foot-icon" />
           </Link>
         </div>
