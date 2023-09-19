@@ -14,7 +14,7 @@ export default function Project(props) {
         <div className="pro-footer">
           <div className="pro-half-footer">
             <BsLink45Deg className="pro-icon" />
-            <Link to="https://google.com" className="my-link">
+            <Link to={props.url} className="my-link">
               Live Preview
             </Link>
           </div>

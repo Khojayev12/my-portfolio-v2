@@ -51,38 +51,19 @@ export default function About() {
           </span>
           <span>
             <div className="about-job-time">Part-time</div>
-            <div className="about-job-date">Sep 2022 - June 2023</div>
+            <div className="about-job-date">June 2023 - Now</div>
           </span>
         </div>
-        <div className="about-job" data-aos="fade-up">
-          <span>
-            <div className="about-job-status">Junior Web Developer</div>
-            <div className="about-job-loc">Freelance, Tashkent</div>
-          </span>
-          <span>
-            <div className="about-job-time">Part-time</div>
-            <div className="about-job-date">Sep 2022 - June 2023</div>
-          </span>
-        </div>
-        <div className="about-job" data-aos="fade-up">
-          <span>
-            <div className="about-job-status">Junior Web Developer</div>
-            <div className="about-job-loc">Freelance, Tashkent</div>
-          </span>
-          <span>
-            <div className="about-job-time">Part-time</div>
-            <div className="about-job-date">Sep 2022 - June 2023</div>
-          </span>
-        </div>
+        
 
         <div className="projects-page-title" data-aos="fade-up">Education</div>
         <div className="about-job" data-aos="fade-up">
           <div className="about-job-status">Presidential School in Khiva</div>
-          <div className="about-job-date">Sep 2022 - June 2023</div>
+          <div className="about-job-date">Dec 2019 - June 2023</div>
         </div>
         <div className="about-job" data-aos="fade-up">
           <div className="about-job-status">University of Coventry</div>
-          <div className="about-job-date">Sep 2023</div>
+          <div className="about-job-date">Sep 2023 - Now</div>
         </div>
 
         <div className="projects-page-title" data-aos="fade-up">Languages</div>
